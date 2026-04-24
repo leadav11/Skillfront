@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import Lea from '.././assets/Images/Lea.jpg';
+import Lea from '.././assets/Images/Lea.png';
 
 export default function Profile({ onProfileUpdate }) {
   const [profileData, setProfileData] = useState({
