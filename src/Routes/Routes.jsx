@@ -25,7 +25,7 @@ import Pago from "../Pages/Pago";
 
 export default function AppRoutes() {
   return (
-    <Router>
+    <Router basename="/Skillfront">
       <Routes>
         {/* Redirección por defecto */}
         <Route path="/" element={<Navigate to="/Young" replace />} />
