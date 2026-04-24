@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Arcade Gamer */
+@font-face {
+    font-family: 'Arcade Gamer'; /* Nombre personalizado */
+    src: url('./assets/Fonts/ARCADE_N.TTF') format('truetype'); /* Ruta relativa */
+    
+  }
+  @font-face {
+    font-family: 'Bree Serif'; /* Nombre personalizado */
+    src: url('./assets/Fonts/BreeSerif_T.ttf') format('truetype'); /* Ruta relativa */    
+  }
+    
+  
+
+@font-face {
+    font-family: 'Fredoka'; /* Nombre personalizado */
+    src: url('./assets/Fonts/Fredoka.ttf') format('truetype'); /* Ruta relativa */
+
+    
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+/* Bubblegum Sans*/
+@font-face {
+  font-family: 'Bubblegum Sans'; /* Nombre personalizado */
+  src: url('./assets/Fonts/BubblegumSans-Regular.ttf') format('truetype'); /* Ruta relativa */
+
+  
+}
+
+
+
+
