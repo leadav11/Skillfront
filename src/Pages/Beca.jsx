@@ -43,7 +43,6 @@ const pageStyles = {
     inputSize: "text-xs",
     secondTitleColor: "text-green-500",
     thirdTitleColor: "text-yellow-400",
-    parrafoSub: "text-gray-200",
   },
 
   kids: {
